@@ -7,6 +7,19 @@ jQuery(document).ready(function($){
 	}
 
 	LoadParallax();
+
+	if ($(document).width() > 760) {
+	  var swiperSert = new Swiper('.sert-swiper-container', {
+	    slidesPerView: 5,
+	    loop: true,
+	    autoplay: {
+	      delay: 5000,
+	    },
+	    pagination: {
+	      el: '.sert-swiper-pagination',
+	    },
+	  })
+	}
 })
 
 $(window).scroll(function() {

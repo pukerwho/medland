@@ -26,4 +26,12 @@ Template Name: Main
 	<?php get_template_part('blocks/products') ?>
 </section>
 
+<section id="sert">
+	<?php get_template_part('blocks/sert') ?>
+</section>
+
+<section id="delivery">
+	<?php get_template_part('blocks/delivery') ?>
+</section>
+
 <?php get_footer(); ?>
