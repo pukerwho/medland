@@ -23,6 +23,9 @@
 				</div>
 			</div>
 			<div class="col-md-6">
+				<div class="medical-three">
+					<img src="<?php bloginfo('template_url') ?>/img/medical-three.svg" width="125px" alt="">
+				</div>
 				<div class="product__title">
 					<div class="animate-puk-mask">
 						<div class="animate-puk" data-effect="fade-up" data-delay="0.2s">
@@ -60,7 +63,10 @@
 				</div>
 			</div>
 		</div>
-		<div class="row align-items-center product__row">
+		<div class="row align-items-center product__row p-relative">
+			<div class="medical-seven">
+				<img src="<?php bloginfo('template_url') ?>/img/medical-seven.svg" width="125px" alt="">
+			</div>
 			<div class="col-md-6">
 				<div class="product__title">
 					<div class="animate-puk-mask">

@@ -1,4 +1,7 @@
-<div class="sert">
+<div class="sert p-relative">
+	<div class="medical-six">
+		<img src="<?php bloginfo('template_url') ?>/img/medical-six.svg" width="125px" alt="">
+	</div>
 	<div class="animate-puk-mask">
 		<div class="sert__bg animate-puk" data-effect="scale-left-bottom" data-delay="0.1s"></div>
 	</div>

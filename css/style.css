@@ -8972,6 +8972,40 @@ a:hover {
   width: 450px;
   min-height: 430px; }
 
+.medical-one {
+  position: absolute;
+  top: -6rem;
+  left: 2rem;
+  opacity: 0.25;
+  z-index: -1; }
+.medical-two {
+  position: absolute;
+  left: -7rem;
+  bottom: -7rem;
+  -webkit-transform: rotate(-15deg);
+  -ms-transform: rotate(-15deg);
+  transform: rotate(-15deg);
+  opacity: 0.25;
+  z-index: -1; }
+.medical-three {
+  position: absolute;
+  right: -7rem;
+  top: -3rem;
+  opacity: 0.25;
+  z-index: -1; }
+.medical-six {
+  position: absolute;
+  right: 1rem;
+  top: 1rem;
+  opacity: 0.25;
+  z-index: -1; }
+.medical-seven {
+  position: absolute;
+  left: -7rem;
+  bottom: -7rem;
+  opacity: 0.25;
+  z-index: -1; }
+
 .header {
   width: 100%;
   position: fixed;
@@ -9212,6 +9246,7 @@ a:hover {
       margin: auto; }
 
 .product {
+  overflow: hidden;
   margin-bottom: 7rem; }
   .product__img {
     -webkit-box-shadow: -2px 1px 6px 0px rgba(0, 0, 0, 0.1);
@@ -9318,6 +9353,7 @@ a:hover {
 
 .sert {
   position: relative;
+  overflow: hidden;
   margin-bottom: 7rem; }
   .sert__bg {
     width: 50%;
