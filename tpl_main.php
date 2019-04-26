@@ -18,12 +18,20 @@ Template Name: Main
 	<?php get_template_part('blocks/list-two') ?>
 </section>
 
+<section id="list-three">
+	<?php get_template_part('blocks/list-three') ?>
+</section>
+
 <section id="instruction">
 	<?php get_template_part('blocks/instruction') ?>
 </section>
 
 <section id="products">
 	<?php get_template_part('blocks/products') ?>
+</section>
+
+<section id="list-four">
+	<?php get_template_part('blocks/list-four') ?>
 </section>
 
 <section id="sert">

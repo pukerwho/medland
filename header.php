@@ -29,6 +29,11 @@
         </div>
       </div>
     </div>
+    <div class="header__phone">
+      <a href="tel:8 800 123 45 67">
+        8 800 123 45 67
+      </a>
+    </div>
     <div class="header__button">
       Заказать 
       <div class="header__button-line">

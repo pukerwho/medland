@@ -40,12 +40,24 @@
 						</div>
 					</div>
 				</div>
-				<div class="animate-puk-mask">
-					<div class="animate-puk" data-effect="fade-up" data-delay="0.5s">
-						<div class="product__price">
-							20 000 рублей
-							<div class="animate-puk-mask">
-								<div class="product__price-string animate-puk" data-effect="scale-left" data-delay="0.7s"></div>	
+				<div class="d-flex">
+					<div class="animate-puk-mask">
+						<div class="animate-puk" data-effect="fade-up" data-delay="0.5s">
+							<div class="product__price">
+								35 000 рублей
+								<div class="animate-puk-mask">
+									<div class="product__price-string animate-puk" data-effect="scale-left" data-delay="0.7s"></div>	
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="animate-puk-mask">
+						<div class="animate-puk" data-effect="fade-up" data-delay="0.5s">
+							<div class="product__price-old">
+								50 000 рублей
+								<div class="animate-puk-mask">
+									<div class="product__price-old-string animate-puk" data-effect="scale-left" data-delay="0.7s"></div>	
+								</div>
 							</div>
 						</div>
 					</div>
@@ -59,6 +71,13 @@
 				        <svg viewBox="0 0 17.83 5"><polygon points="17.83 2.5 14.5 0 14.5 2 0 2 0 3 14.5 3 14.5 5 17.83 2.5"></polygon></svg>
 				      </div>
 				    </div>
+					</div>
+				</div>
+				<div class="animate-puk-mask">
+					<div class="animate-puk" data-effect="fade-up" data-delay="0.75s">
+						<div class="lead">
+							Хеттера / поизводитель
+						</div>
 					</div>
 				</div>
 			</div>
@@ -82,16 +101,29 @@
 						</div>
 					</div>
 				</div>
-				<div class="animate-puk-mask">
-					<div class="animate-puk" data-effect="fade-up" data-delay="0.5s">
-						<div class="product__price">
-							15 000 рублей
-							<div class="animate-puk-mask">
-								<div class="product__price-string animate-puk" data-effect="scale-left" data-delay="0.7s"></div>	
+				<div class="d-flex">
+					<div class="animate-puk-mask">
+						<div class="animate-puk" data-effect="fade-up" data-delay="0.5s">
+							<div class="product__price">
+								55 000 рублей
+								<div class="animate-puk-mask">
+									<div class="product__price-string animate-puk" data-effect="scale-left" data-delay="0.7s"></div>	
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="animate-puk-mask">
+						<div class="animate-puk" data-effect="fade-up" data-delay="0.5s">
+							<div class="product__price-old">
+								70 000 рублей
+								<div class="animate-puk-mask">
+									<div class="product__price-old-string animate-puk" data-effect="scale-left" data-delay="0.7s"></div>	
+								</div>
 							</div>
 						</div>
 					</div>
 				</div>
+				
 				<div class="animate-puk-mask">
 					<div class="animate-puk" data-effect="fade-left" data-delay="0.5s">
 						<div class="product__button">
@@ -101,6 +133,13 @@
 				        <svg viewBox="0 0 17.83 5"><polygon points="17.83 2.5 14.5 0 14.5 2 0 2 0 3 14.5 3 14.5 5 17.83 2.5"></polygon></svg>
 				      </div>
 				    </div>
+					</div>
+				</div>
+				<div class="animate-puk-mask">
+					<div class="animate-puk" data-effect="fade-up" data-delay="0.75s">
+						<div class="lead">
+							НАТКО / поизводитель
+						</div>
 					</div>
 				</div>
 			</div>
