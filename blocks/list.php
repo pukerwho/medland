@@ -5,7 +5,7 @@
 				<div class="animate-puk-mask">
 					<div class="animate-puk" data-effect="fade-up" data-delay="0.3s">
 						<div class="list__icon">
-							<img src="https://static.tildacdn.com/lib/tildaicon/37323738-6462-4562-a666-323230653266/hospital.svg" alt="">
+							<img src="<?php bloginfo('template_url') ?>/img/icon-1.jpg" alt="">
 						</div>
 					</div>
 				</div>
@@ -24,7 +24,7 @@
 				<div class="animate-puk-mask">
 					<div class="animate-puk" data-effect="fade-up" data-delay="0.6s">
 						<div class="list__icon">
-							<img src="https://static.tildacdn.com/lib/tildaicon/39343532-3665-4036-b761-343530363332/Tilda_Icons_35_Valentine_lovedate.svg" alt="">
+							<img src="<?php bloginfo('template_url') ?>/img/icon-2.jpg" alt="">
 						</div>
 					</div>
 				</div>
@@ -43,7 +43,7 @@
 				<div class="animate-puk-mask">
 					<div class="animate-puk" data-effect="fade-up" data-delay="0.9s">
 						<div class="list__icon">
-							<img src="https://static.tildacdn.com/lib/tildaicon/32613863-3761-4533-b831-616665386266/equipment.svg" alt="">
+							<img src="<?php bloginfo('template_url') ?>/img/icon-3.jpg" alt="">
 						</div>
 					</div>
 				</div>

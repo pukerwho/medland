@@ -64,13 +64,18 @@
 				</div>
 				<div class="animate-puk-mask">
 					<div class="animate-puk" data-effect="fade-left" data-delay="0.5s">
-						<div class="product__button">
+						<div class="red-button">
+							<span>
+								Заказать
+							</span>
+						</div>
+						<!-- <div class="product__button">
 				      Заказать 
 				      <div class="product__button-line">
 				        <span></span>
 				        <svg viewBox="0 0 17.83 5"><polygon points="17.83 2.5 14.5 0 14.5 2 0 2 0 3 14.5 3 14.5 5 17.83 2.5"></polygon></svg>
 				      </div>
-				    </div>
+				    </div> -->
 					</div>
 				</div>
 				<div class="animate-puk-mask">
@@ -126,13 +131,18 @@
 				
 				<div class="animate-puk-mask">
 					<div class="animate-puk" data-effect="fade-left" data-delay="0.5s">
-						<div class="product__button">
+						<div class="red-button">
+							<span>
+								Заказать
+							</span>
+						</div>
+						<!-- <div class="product__button">
 				      Заказать 
 				      <div class="product__button-line">
 				        <span></span>
 				        <svg viewBox="0 0 17.83 5"><polygon points="17.83 2.5 14.5 0 14.5 2 0 2 0 3 14.5 3 14.5 5 17.83 2.5"></polygon></svg>
 				      </div>
-				    </div>
+				    </div> -->
 					</div>
 				</div>
 				<div class="animate-puk-mask">

@@ -34,6 +34,10 @@ Template Name: Main
 	<?php get_template_part('blocks/list-four') ?>
 </section>
 
+<section id="list-six">
+	<?php get_template_part('blocks/list-six') ?>
+</section>
+
 <section id="sert">
 	<?php get_template_part('blocks/sert') ?>
 </section>

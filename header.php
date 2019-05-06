@@ -25,7 +25,18 @@
     <div class="container">
       <div class="row">
         <div class="col-md-12">
-          Лого
+          <div class="d-flex align-items-center justify-content-between">
+            <div class="header__logo">
+              Лого  
+            </div>
+            <div class="header__button">
+              <div class="red-button">
+                <span>
+                  Заказать
+                </span>
+              </div>  
+            </div>  
+          </div>
         </div>
       </div>
     </div>
@@ -34,12 +45,12 @@
         8 800 123 45 67
       </a>
     </div>
-    <div class="header__button">
+    <!-- <div class="header__button">
       Заказать 
       <div class="header__button-line">
         <span></span>
         <svg viewBox="0 0 17.83 5"><polygon points="17.83 2.5 14.5 0 14.5 2 0 2 0 3 14.5 3 14.5 5 17.83 2.5"></polygon></svg>
-      </div>
+      </div> -->
     </div>
   </header>
   <section id="content" role="main">
