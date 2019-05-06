@@ -17,10 +17,12 @@
 		</div>
 	</div>
 	<div class="m-auto text-center">
-		<div class="red-button">
-			<span>
-				Вылечить гепатит С
-			</span>
-		</div>	
+		<a href="http://медэкспресс.рус" target="_blank">
+			<div class="red-button">
+				<span>
+					Вылечить гепатит С
+				</span>
+			</div>	
+		</a>
 	</div>
 </div>
