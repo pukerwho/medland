@@ -1,5 +1,5 @@
 <div class="animate-puk-mask">
-	<div class="delivery animate-puk" data-effect="scale-down" data-delay="0.5s">
+	<div class="delivery animate-puk" data-effect="fade" data-delay="0.5s">
 		<div class="animate-puk-mask">
 			<div class="delivery__icon animate-puk" data-effect="fade" data-delay="0.9s">
 				<img src="<?php bloginfo('template_url') ?>/img/delivery.png" width="200px" alt="">
