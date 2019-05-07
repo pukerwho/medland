@@ -50,7 +50,7 @@
 				<div class="animate-puk-mask">
 					<div class="animate-puk" data-effect="fade-up" data-delay="1s">
 						<div class="list__title">
-							Стадии поражения 1-4 или все
+							Подходит для 4 генотипов вируса
 							<div class="animate-puk-mask">
 								<div class="list__title-string animate-puk" data-effect="scale-left" data-delay="1.1s"></div>	
 							</div>

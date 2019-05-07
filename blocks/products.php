@@ -36,7 +36,7 @@
 				<div class="product__text">
 					<div class="animate-puk-mask">
 						<div class="animate-puk" data-effect="fade-up" data-delay="0.5s">
-							СОФ + ДАК
+							Софосбувир + Даклатасфир
 						</div>
 					</div>
 				</div>
@@ -81,7 +81,7 @@
 				<div class="animate-puk-mask">
 					<div class="animate-puk" data-effect="fade-up" data-delay="0.75s">
 						<div class="lead">
-							Хеттера / поизводитель
+							Hetero / поизводитель
 						</div>
 					</div>
 				</div>
@@ -102,7 +102,7 @@
 				<div class="product__text">
 					<div class="animate-puk-mask">
 						<div class="animate-puk" data-effect="fade-up" data-delay="0.5s">
-							СОФ + ВЕЛ
+							Софосбувир + Велпатасвир
 						</div>
 					</div>
 				</div>
@@ -148,7 +148,7 @@
 				<div class="animate-puk-mask">
 					<div class="animate-puk" data-effect="fade-up" data-delay="0.75s">
 						<div class="lead">
-							НАТКО / поизводитель
+							Natco / поизводитель
 						</div>
 					</div>
 				</div>
