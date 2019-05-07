@@ -1,10 +1,13 @@
 <div class="list-four">
-	<div class="list-four__img">
-		<img src="https://static.tildacdn.com/tild6336-3539-4536-a362-333934336332/Vikeira2.jpg" alt="">
-	</div>
+	
 	<div class="container">
-		<div class="row">
-			<div class="col-md-7 offset-md-5">
+		<div class="row align-items-center">
+			<div class="col-md-5">
+				<div class="list-four__img">
+					<img src="https://static.tildacdn.com/tild6336-3539-4536-a362-333934336332/Vikeira2.jpg" alt="">
+				</div>
+			</div>
+			<div class="col-md-7">
 				<div class="list-four__grid">
 					<div class="animate-puk-mask">
 						<div class="animate-puk" data-effect="fade-up" data-delay="0.2s">
