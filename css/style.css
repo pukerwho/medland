@@ -10443,16 +10443,31 @@ button.swiper-pagination-bullet {
   align-items: center;
   position: relative;
   overflow: hidden; }
+  .welcome__bg-img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    overflow: hidden;
+    z-index: 1;
+    -webkit-transform: translateY(0%);
+    -ms-transform: translateY(0%);
+    transform: translateY(0%);
+    -webkit-transition: all 0.7s ease-out;
+    -o-transition: all 0.7s ease-out;
+    transition: all 0.7s ease-out;
+    -webkit-transition-delay: 0.5s;
+    -o-transition-delay: 0.5s;
+    transition-delay: 0.5s; }
   .welcome__bg img {
     width: 100%;
     height: 100vh;
     position: absolute;
     -o-object-fit: cover;
     object-fit: cover;
-    -webkit-transform: scale(1.2);
-    -ms-transform: scale(1.2);
-    -webkit-transform: scale(1.2);
-    transform: scale(1.2);
+    -webkit-transform: scale(1.2) translateY(15%);
+    -ms-transform: scale(1.2) translateY(15%);
+    -webkit-transform: scale(1.2) translateY(15%);
+    transform: scale(1.2) translateY(15%);
     -webkit-transition: all 0.7s ease-out;
     -o-transition: all 0.7s ease-out;
     transition: all 0.7s ease-out;
@@ -10469,7 +10484,7 @@ button.swiper-pagination-bullet {
     -webkit-transform: translate(-100%, -15%);
     -ms-transform: translate(-100%, -15%);
     transform: translate(-100%, -15%);
-    z-index: 1;
+    z-index: 3;
     -webkit-transition: all 0.7s ease-out;
     -o-transition: all 0.7s ease-out;
     transition: all 0.7s ease-out;
@@ -10481,7 +10496,7 @@ button.swiper-pagination-bullet {
     -webkit-transform: translateY(-20%);
     -ms-transform: translateY(-20%);
     transform: translateY(-20%);
-    z-index: 2; }
+    z-index: 4; }
   .welcome__bg-title {
     color: #ffffff;
     font-size: 5rem;
@@ -10515,12 +10530,17 @@ button.swiper-pagination-bullet {
     margin: auto;
     -webkit-animation: scrollDown 2s infinite;
     animation: scrollDown 2s infinite; }
-.welcome__load img {
-  -webkit-transform: scale(1) translateY(-15%);
-  -ms-transform: scale(1) translateY(-15%);
-  transform: scale(1) translateY(-15%);
+.welcome__load .welcome__bg-img {
+  -webkit-transform: translateY(-15%);
+  -ms-transform: translateY(-15%);
+  transform: translateY(-15%);
+  -webkit-box-shadow: 0px 5px 7px 1px #9E9E9E;
   -webkit-box-shadow: 0px 5px 7px 1px #9E9E9E;
   box-shadow: 0px 5px 7px 1px #9E9E9E; }
+.welcome__load img {
+  -webkit-transform: scale(1) translateY(15%);
+  -ms-transform: scale(1) translateY(15%);
+  transform: scale(1) translateY(15%); }
 .welcome__load .welcome__bg-dark {
   -webkit-transform: translate(0%, -15%);
   -ms-transform: translate(0%, -15%);

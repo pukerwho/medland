@@ -1,6 +1,8 @@
 <div class="welcome__bg">
 	<div class="welcome__bg-dark"></div>
-	<img src="<?php bloginfo('template_url') ?>/img/welcome-bg.jpg" alt="">
+	<div class="welcome__bg-img">
+		<img src="<?php bloginfo('template_url') ?>/img/welcome-bg.jpg" alt="">	
+	</div>
 	<div class="container welcome__bg-content">
 		<div class="row">
 			<div class="col-md-12">
