@@ -3,7 +3,7 @@
 		<div class="row align-items-center">
 			<div class="col-md-6">
 				<div class="list-two__img">
-					<div class="parallax-window" data-parallax data-parallax="scroll"  data-position="top" data-bleed="0" data-src="https://static.tildacdn.com/tild6336-3539-4536-a362-333934336332/Vikeira2.jpg"></div>
+					<div class="parallax-window" data-parallax data-parallax="scroll"  data-position="top" data-bleed="0" data-src="<?php bloginfo('template_url') ?>/img/photo-04.jpg"></div>
 				</div>
 			</div>
 			<div class="col-md-6">

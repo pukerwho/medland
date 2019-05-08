@@ -20,22 +20,24 @@
 			<div class="sert-swiper-container swiper-container">
 				<div class="swiper-wrapper">
 					<div class="swiper-slide">
-						<img src="https://static.tildacdn.com/tild3563-6165-4664-a233-383139313638/photo.jpg" alt="">
+						<a href="<?php bloginfo('template_url') ?>/img/cert-01.jpg" data-lightbox="cert" data-title="Сертификаты">
+							<img src="<?php bloginfo('template_url') ?>/img/cert-01.jpg" alt="">
+						</a>
 					</div>
 					<div class="swiper-slide">
-						<img src="https://static.tildacdn.com/tild3563-6165-4664-a233-383139313638/photo.jpg" alt="">
+						<a href="<?php bloginfo('template_url') ?>/img/cert-02.jpg" data-lightbox="cert" data-title="Сертификаты">
+							<img src="<?php bloginfo('template_url') ?>/img/cert-02.jpg" alt="">
+						</a>
 					</div>
 					<div class="swiper-slide">
-						<img src="https://static.tildacdn.com/tild3563-6165-4664-a233-383139313638/photo.jpg" alt="">
+						<a href="<?php bloginfo('template_url') ?>/img/cert-03.jpg" data-lightbox="cert" data-title="Сертификаты">
+							<img src="<?php bloginfo('template_url') ?>/img/cert-03.jpg" alt="">
+						</a>
 					</div>
 					<div class="swiper-slide">
-						<img src="https://static.tildacdn.com/tild3563-6165-4664-a233-383139313638/photo.jpg" alt="">
-					</div>
-					<div class="swiper-slide">
-						<img src="https://static.tildacdn.com/tild3563-6165-4664-a233-383139313638/photo.jpg" alt="">
-					</div>
-					<div class="swiper-slide">
-						<img src="https://static.tildacdn.com/tild3563-6165-4664-a233-383139313638/photo.jpg" alt="">
+						<a href="<?php bloginfo('template_url') ?>/img/cert-04.jpg" data-lightbox="cert" data-title="Сертификаты">
+							<img src="<?php bloginfo('template_url') ?>/img/cert-04.jpg" alt="">
+						</a>
 					</div>
 				</div>
 			</div>

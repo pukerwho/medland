@@ -9006,6 +9006,167 @@ a:hover {
   opacity: 0.25;
   z-index: -1; }
 
+.modal-open {
+  overflow: hidden; }
+
+.modal__bg-open {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.25);
+  position: fixed;
+  z-index: 3;
+  top: 0; }
+
+.callback {
+  position: relative; }
+  .callback__modal {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    z-index: -1;
+    opacity: 0;
+    -webkit-transform: translateY(-20%);
+    -ms-transform: translateY(-20%);
+    transform: translateY(-20%);
+    -webkit-transition: all 0.6s;
+    -o-transition: all 0.6s;
+    transition: all 0.6s; }
+    .callback__modal p {
+      margin-bottom: 5px; }
+    .callback__modal input, .callback__modal textarea {
+      width: 100%;
+      color: #6a6a6a;
+      font-size: 1.2rem;
+      padding: 10px 20px; }
+    .callback__modal input[type="checkbox"] {
+      width: auto;
+      margin-right: 0.25rem; }
+    .callback__modal [type="submit"] {
+      width: auto;
+      display: inline-block;
+      position: relative;
+      color: #ffffff;
+      font-size: 1.3rem;
+      text-transform: uppercase;
+      background: -webkit-gradient(linear, left top, left bottom, from(#d43b3c), to(#8f1b1d));
+      background: -webkit-linear-gradient(top, #d43b3c 0%, #8f1b1d 100%);
+      background: -o-linear-gradient(top, #d43b3c 0%, #8f1b1d 100%);
+      background: linear-gradient(to bottom, #d43b3c 0%, #8f1b1d 100%);
+      border: 0;
+      -webkit-border-radius: 50pt;
+      border-radius: 50pt;
+      outline: transparent;
+      text-shadow: 0px 2px 0px rgba(0, 0, 0, 0.25);
+      overflow: hidden;
+      cursor: pointer;
+      padding: 0.5rem 1.5rem;
+      margin-bottom: 0.31rem; }
+      .callback__modal [type="submit"]:before {
+        background: white none repeat scroll 0 0;
+        border-color: red;
+        -webkit-border-radius: 45px;
+        border-radius: 45px;
+        border-style: solid;
+        border-width: 0;
+        -webkit-box-shadow: 0 0 29px 10px #ffffff;
+        box-shadow: 0 0 29px 10px #ffffff;
+        content: "";
+        -webkit-filter: blur(20px);
+        filter: blur(20px);
+        height: 140%;
+        left: -30%;
+        margin-left: 0;
+        margin-top: 0;
+        position: absolute;
+        top: 0;
+        -webkit-transform: rotate(25deg);
+        -ms-transform: rotate(25deg);
+        transform: rotate(25deg);
+        width: 25px;
+        z-index: 1000;
+        -webkit-transition: all .8s;
+        -o-transition: all .8s;
+        transition: all .8s;
+        opacity: .6;
+        -webkit-animation: light 4.5s infinite ease-out;
+        animation: light 4.5s infinite ease-out; }
+      .callback__modal [type="submit"]:after {
+        border: 0;
+        -webkit-border-radius: 50%;
+        border-radius: 50%;
+        bottom: 20pt;
+        -webkit-box-shadow: 0 22pt 4px 1px rgba(0, 0, 0, 0.58);
+        box-shadow: 0 22pt 4px 1px rgba(0, 0, 0, 0.58);
+        content: '';
+        display: block;
+        height: 5px;
+        left: 1%;
+        position: absolute;
+        z-index: -1;
+        width: 98%; }
+    .callback__modal .wpcf7-validation-errors {
+      color: #484848; }
+    .callback__modal .wpcf7-response-output {
+      color: #484848; }
+    .callback__modal .agree {
+      display: -webkit-inline-box;
+      display: -webkit-inline-flex;
+      display: -ms-inline-flexbox;
+      display: inline-flex;
+      color: #777;
+      font-size: 0.85rem;
+      margin-bottom: 2rem; }
+      .callback__modal .agree .wpcf7-list-item {
+        margin: 0; }
+    .callback__modal-open {
+      z-index: 99;
+      opacity: 1;
+      -webkit-transform: translateY(0%);
+      -ms-transform: translateY(0%);
+      transform: translateY(0%);
+      -webkit-transition: all 0.6s;
+      -o-transition: all 0.6s;
+      transition: all 0.6s; }
+  .callback__box {
+    width: 445px;
+    position: relative;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.25);
+    box-shadow: rgba(0, 0, 0, 0.25);
+    background-color: #ffffff;
+    margin: auto;
+    padding: 40px 48px 40px 48px; }
+  .callback__title {
+    color: #484848;
+    font-size: 1.75rem;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 12px; }
+  .callback__line {
+    width: 98px;
+    height: 2px;
+    border: solid 2px #ac0001;
+    margin: auto;
+    margin-bottom: 30px; }
+  .callback__close {
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    cursor: pointer; }
+
 .header {
   width: 100%;
   position: fixed;
@@ -9047,7 +9208,8 @@ a:hover {
     -webkit-box-align: center;
     -webkit-align-items: center;
     -ms-flex-align: center;
-    align-items: center; }
+    align-items: center;
+    z-index: 3; }
     .header__button .red-button {
       font-size: 1.2rem;
       margin-bottom: 0; }
@@ -9212,7 +9374,7 @@ a:hover {
         position: absolute;
         top: 0;
         left: 0;
-        /*background: url('../img/molecula.jpg');*/
+        background: url("../img/hand.jpeg");
         -webkit-background-size: cover;
         background-size: cover;
         background-repeat: no-repeat;
@@ -9533,6 +9695,15 @@ a:hover {
     margin-bottom: 2.5rem; }
   .sert .swiper-container {
     position: relative; }
+  .sert .swiper-wrapper {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center; }
   .sert .swiper-slide {
     position: relative;
     margin: 30px; }
@@ -9594,6 +9765,7 @@ a:hover {
   .delivery__title {
     color: #ffffff;
     font-size: 3.5rem;
+    text-shadow: 3px 3px 5px black;
     margin-bottom: 2rem; }
   .delivery__button {
     display: -webkit-box;
@@ -9658,6 +9830,187 @@ a:hover {
       -webkit-transition: all 0.25s;
       -o-transition: all 0.25s;
       transition: all 0.25s; }
+
+html.lb-disable-scrolling {
+  overflow: hidden;
+  /* Position fixed required for iOS. Just putting overflow: hidden; on the body is not enough. */
+  position: fixed;
+  height: 100vh;
+  width: 100vw; }
+
+.lightboxOverlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  background-color: black;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
+  opacity: 0.8;
+  display: none; }
+
+.lightbox {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  z-index: 10000;
+  text-align: center;
+  line-height: 0;
+  font-weight: normal; }
+
+.lightbox .lb-image {
+  display: block;
+  height: auto;
+  max-width: inherit;
+  max-height: none;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  /* Image border */
+  border: 4px solid white; }
+
+.lightbox a img {
+  border: none; }
+
+.lb-outerContainer {
+  position: relative;
+  *zoom: 1;
+  width: 250px;
+  height: 250px;
+  margin: 0 auto;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+  /* Background color behind image.
+     This is visible during transitions. */
+  background-color: white; }
+
+.lb-outerContainer:after {
+  content: "";
+  display: table;
+  clear: both; }
+
+.lb-loader {
+  position: absolute;
+  top: 43%;
+  left: 0;
+  height: 25%;
+  width: 100%;
+  text-align: center;
+  line-height: 0; }
+
+.lb-cancel {
+  display: block;
+  width: 32px;
+  height: 32px;
+  margin: 0 auto;
+  background: url(../img/lightbox-loading.gif) no-repeat; }
+
+.lb-nav {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 10; }
+
+.lb-container > .nav {
+  left: 0; }
+
+.lb-nav a {
+  outline: none;
+  background-image: url("data:image/gif;base64,R0lGODlhAQABAPAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="); }
+
+.lb-prev, .lb-next {
+  height: 100%;
+  cursor: pointer;
+  display: block; }
+
+.lb-nav a.lb-prev {
+  width: 34%;
+  left: 0;
+  float: left;
+  background: url(../img/lightbox-prev.png) left 48% no-repeat;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+  opacity: 0;
+  -webkit-transition: opacity 0.6s;
+  -o-transition: opacity 0.6s;
+  transition: opacity 0.6s; }
+
+.lb-nav a.lb-prev:hover {
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+  opacity: 1; }
+
+.lb-nav a.lb-next {
+  width: 64%;
+  right: 0;
+  float: right;
+  background: url(../img/lightbox-next.png) right 48% no-repeat;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+  opacity: 0;
+  -webkit-transition: opacity 0.6s;
+  -o-transition: opacity 0.6s;
+  transition: opacity 0.6s; }
+
+.lb-nav a.lb-next:hover {
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+  opacity: 1; }
+
+.lb-dataContainer {
+  margin: 0 auto;
+  padding-top: 5px;
+  *zoom: 1;
+  width: 100%;
+  -webkit-border-bottom-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+  -webkit-border-bottom-right-radius: 4px;
+  border-bottom-right-radius: 4px; }
+
+.lb-dataContainer:after {
+  content: "";
+  display: table;
+  clear: both; }
+
+.lb-data {
+  padding: 0 4px;
+  color: #ccc; }
+
+.lb-data .lb-details {
+  width: 85%;
+  float: left;
+  text-align: left;
+  line-height: 1.1em; }
+
+.lb-data .lb-caption {
+  font-size: 13px;
+  font-weight: bold;
+  line-height: 1em; }
+
+.lb-data .lb-caption a {
+  color: #4ae; }
+
+.lb-data .lb-number {
+  display: block;
+  clear: left;
+  padding-bottom: 1em;
+  font-size: 12px;
+  color: #999999; }
+
+.lb-data .lb-close {
+  display: block;
+  float: right;
+  width: 30px;
+  height: 30px;
+  background: url(../img/lightbox-close.png) top right no-repeat;
+  text-align: right;
+  outline: none;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=70);
+  opacity: 0.7;
+  -webkit-transition: opacity 0.2s;
+  -o-transition: opacity 0.2s;
+  transition: opacity 0.2s; }
+
+.lb-data .lb-close:hover {
+  cursor: pointer;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+  opacity: 1; }
 
 .animate-puk-mask {
   overflow: hidden; }

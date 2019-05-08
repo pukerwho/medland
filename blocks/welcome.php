@@ -22,7 +22,7 @@
 				</div>
 				<div class="animate-puk-mask">
 					<div class="static-animate-puk" data-effect="fade-left" data-delay="2.2s">
-						<div class="red-button">
+						<div class="red-button callback">
 							<span>
 								Заказать
 							</span>

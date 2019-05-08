@@ -15,7 +15,7 @@
 						<div class="animate-puk-mask">
 							<div class="animate-puk" data-effect="scale-up" data-delay="0.3s">
 								<div class="product__img">
-									<img src="https://static.tildacdn.com/tild6336-3539-4536-a362-333934336332/Vikeira2.jpg" alt="">
+									<img src="<?php bloginfo('template_url') ?>/img/product-001.jpg" alt="">
 								</div>
 							</div>
 						</div>
@@ -64,7 +64,7 @@
 				</div>
 				<div class="animate-puk-mask">
 					<div class="animate-puk" data-effect="fade-left" data-delay="0.5s">
-						<div class="red-button">
+						<div class="red-button callback">
 							<span>
 								Заказать
 							</span>
@@ -81,7 +81,7 @@
 				<div class="animate-puk-mask">
 					<div class="animate-puk" data-effect="fade-up" data-delay="0.75s">
 						<div class="lead">
-							Hetero / поизводитель
+							Hetero / производитель
 						</div>
 					</div>
 				</div>
@@ -131,7 +131,7 @@
 				
 				<div class="animate-puk-mask">
 					<div class="animate-puk" data-effect="fade-left" data-delay="0.5s">
-						<div class="red-button">
+						<div class="red-button callback">
 							<span>
 								Заказать
 							</span>
@@ -148,7 +148,7 @@
 				<div class="animate-puk-mask">
 					<div class="animate-puk" data-effect="fade-up" data-delay="0.75s">
 						<div class="lead">
-							Natco / поизводитель
+							Natco / производитель
 						</div>
 					</div>
 				</div>
@@ -167,7 +167,7 @@
 						<div class="animate-puk-mask">
 							<div class="animate-puk" data-effect="scale-up" data-delay="0.3s">
 								<div class="product__img">
-									<img src="https://static.tildacdn.com/tild6336-3539-4536-a362-333934336332/Vikeira2.jpg" alt="">
+									<img src="<?php bloginfo('template_url') ?>/img/product-002.jpg" alt="">
 								</div>
 							</div>
 						</div>
