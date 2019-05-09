@@ -19,6 +19,17 @@ jQuery(document).ready(function($){
 	    },
 	  })
 	}
+	if ($(document).width() < 760) {
+	  var swiperSert = new Swiper('.sert-swiper-container', {
+	    slidesPerView: 2,
+	    autoplay: {
+	      delay: 5000,
+	    },
+	    pagination: {
+	      el: '.sert-swiper-pagination',
+	    },
+	  })
+	}
 })
 
 //Callback Form Open

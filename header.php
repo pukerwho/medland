@@ -22,20 +22,22 @@
   <!-- <div class="preloader"></div> -->
   
   <header id="header" class="header" role="banner">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12">
-          <div class="d-flex align-items-center justify-content-between">
-            <div class="header__logo">
-              Лого  
-            </div>
-            <div class="header__button">
-              <div class="red-button callback">
-                <span>
-                  Заказать
-                </span>
+    <div class="pc-show">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="d-flex align-items-center justify-content-between">
+              <div class="header__logo">
+                Лого  
+              </div>
+              <div class="header__button">
+                <div class="red-button callback">
+                  <span>
+                    Заказать
+                  </span>
+                </div>  
               </div>  
-            </div>  
+            </div>
           </div>
         </div>
       </div>

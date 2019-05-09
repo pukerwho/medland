@@ -1,7 +1,7 @@
 <div class="list">
 	<div class="container">
 		<div class="row">
-			<div class="col-md-4">
+			<div class="col-md-4 list__col">
 				<div class="animate-puk-mask">
 					<div class="animate-puk" data-effect="fade-up" data-delay="0.3s">
 						<div class="list__icon">
@@ -20,7 +20,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-md-4">
+			<div class="col-md-4 list__col">
 				<div class="animate-puk-mask">
 					<div class="animate-puk" data-effect="fade-up" data-delay="0.6s">
 						<div class="list__icon">
@@ -39,7 +39,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-md-4">
+			<div class="col-md-4 list__col">
 				<div class="animate-puk-mask">
 					<div class="animate-puk" data-effect="fade-up" data-delay="0.9s">
 						<div class="list__icon">
