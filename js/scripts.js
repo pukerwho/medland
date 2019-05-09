@@ -21,7 +21,7 @@ jQuery(document).ready(function($){
 	}
 	if ($(document).width() < 760) {
 	  var swiperSert = new Swiper('.sert-swiper-container', {
-	    slidesPerView: 2,
+	    slidesPerView: 'auto',
 	    autoplay: {
 	      delay: 5000,
 	    },
