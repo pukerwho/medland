@@ -3,7 +3,7 @@
 		<div class="row align-items-center">
 			<div class="col-md-6">
 				<div class="list-two__img">
-					<div class="parallax-window" data-parallax data-parallax="scroll"  data-position="top" data-bleed="0" data-src="<?php bloginfo('template_url') ?>/img/photo-04.jpg"></div>
+					<div class="parallax-window" data-parallax data-parallax="scroll"  data-position="top" data-bleed="0" data-src="<?php bloginfo('template_url') ?>/img/product-002.jpg"></div>
 				</div>
 			</div>
 			<div class="col-md-6">
