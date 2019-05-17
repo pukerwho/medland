@@ -16,7 +16,16 @@
 				<div class="welcome__bg-text">
 					<div class="animate-puk-mask">
 						<div class="static-animate-puk" data-effect="fade-up" data-delay="1.9s">
-							8 800 123 45 67
+							<div>
+								<a href="tel:88005053732">
+					        8 800 5053732
+					      </a>	
+							</div>
+							<div class="welcome__bg-text-small">
+								<a href="tel:+7(495)134-06-34">
+					        +7(495)134-06-34
+					      </a>	
+							</div>
 						</div>
 					</div>
 				</div>

@@ -28,7 +28,7 @@
           <div class="col-md-12">
             <div class="d-flex align-items-center justify-content-between">
               <div class="header__logo">
-                Лого  
+                <img src="<?php bloginfo('template_url') ?>/img/logo-medland.png" alt="">
               </div>
               <div class="header__button">
                 <div class="red-button callback">
@@ -43,8 +43,8 @@
       </div>
     </div>
     <div class="header__phone">
-      <a href="tel:8 800 123 45 67">
-        8 800 123 45 67
+      <a href="tel:88005053732">
+        8 800 5053732
       </a>
     </div>
     <!-- <div class="header__button">
