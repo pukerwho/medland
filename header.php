@@ -44,7 +44,7 @@
     </div>
     <div class="header__phone">
       <a href="tel:88005053732">
-        8 800 5053732
+        8 800 505 37 32
       </a>
     </div>
     <!-- <div class="header__button">

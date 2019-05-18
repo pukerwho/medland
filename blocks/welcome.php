@@ -18,7 +18,7 @@
 						<div class="static-animate-puk" data-effect="fade-up" data-delay="1.9s">
 							<div>
 								<a href="tel:88005053732">
-					        8 800 5053732
+					        8 800 505 37 32
 					      </a>	
 							</div>
 							<div class="welcome__bg-text-small">
