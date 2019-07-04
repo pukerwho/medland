@@ -25,7 +25,25 @@
     gtag('js', new Date());
 
     gtag('config', 'UA-140429702-2');
+    gtag('config', 'AW-734354753');
   </script>
+  <!-- Event snippet for Кликнули на кнопку conversion page
+  In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
+  <script>
+  function gtag_report_conversion(url) {
+    var callback = function () {
+      if (typeof(url) != 'undefined') {
+        window.location = url;
+      }
+    };
+    gtag('event', 'conversion', {
+        'send_to': 'AW-734354753/6RZuCNfbiqUBEMG6ld4C',
+        'event_callback': callback
+    });
+    return false;
+  }
+  </script>
+
   <!-- Yandex.Metrika counter -->
   <script type="text/javascript" >
      (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
@@ -55,7 +73,7 @@
                 <img src="<?php bloginfo('template_url') ?>/img/logo-medland.png" alt="">
               </div>
               <div class="header__button">
-                <div class="red-button callback">
+                <div class="red-button callback" onclick="gtag_report_conversion()">
                   <span>
                     Заказать
                   </span>

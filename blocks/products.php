@@ -64,7 +64,7 @@
 				</div>
 				<div class="animate-puk-mask">
 					<div class="animate-puk" data-effect="fade-left" data-delay="0.5s">
-						<div class="red-button callback">
+						<div class="red-button callback" onclick="gtag_report_conversion()">
 							<span>
 								Заказать
 							</span>
@@ -131,7 +131,7 @@
 				
 				<div class="animate-puk-mask">
 					<div class="animate-puk" data-effect="fade-left" data-delay="0.5s">
-						<div class="red-button callback">
+						<div class="red-button callback" onclick="gtag_report_conversion()">
 							<span>
 								Заказать
 							</span>
