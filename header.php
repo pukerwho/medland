@@ -73,7 +73,7 @@
                 <img src="<?php bloginfo('template_url') ?>/img/logo-medland.png" alt="">
               </div>
               <div class="header__button">
-                <div class="red-button callback" onclick="gtag_report_conversion()">
+                <div class="red-button callback" onclick="return gtag_report_conversion('http://sof-vel.ru/')">
                   <span>
                     Заказать
                   </span>
